@@ -26,5 +26,7 @@ The '<x' button deletes the last digit inserted.
 When the symbol '=' is present, the actual total is reported 
 as the first number by pressing one of the four operators.
 
+Double return for a separetor line of '#'.
+
 Tkalculator accepts 13 digits, and has the thousands separator.
 
