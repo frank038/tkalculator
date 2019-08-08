@@ -1,5 +1,5 @@
 Tkalculator by frank038
-v. 0.9
+v. 0.9.1
 
 A calculator in python3/tkinter with a large display that simulate a paper roll.
 
@@ -30,3 +30,4 @@ Double return for a separetor line of '#'.
 
 Tkalculator accepts 13 digits, and has the thousands separator.
 
+![My image](https://github.com/frank038/tkalculator/blob/master/tkalculator-linux.jpg)
