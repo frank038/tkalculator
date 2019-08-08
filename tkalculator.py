@@ -217,12 +217,7 @@ class Application(ttk.Frame):
                 self.prev_operation_var = ""
                 self.operation_var = ""
             
-            temp_value = float(str(self.temp_var1) + str(btn))
-            integer, decimal = str(temp_value).split(".")
-            if decimal == "0":
-                self.temp_var1 = integer
-            else:
-                self.temp_var1 = str(temp_value)
+            self.temp_var1 += str(btn)
             self.main_sv.set(self.temp_var1)
             #
         elif btn == ".":
